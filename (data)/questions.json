@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Qual queijo é tradicionalmente usado na salada Caprese?",
+        "options": ["Cheddar", "Mozzarella", "Gorgonzola", "Parmesão"],
+        "correctAnswer": "Mozzarella"
+    },
+    {
+        "question": "Qual destes queijos é conhecido por seu mofo azul?",
+        "options": ["Brie", "Minas", "Gorgonzola", "Coalho"],
+        "correctAnswer": "Gorgonzola"
+    },
+    {
+        "question": "Qual queijo é muito utilizado para finalizar massas ralado?",
+        "options": ["Parmesão", "Ricota", "Muçarela", "Prato"],
+        "correctAnswer": "Parmesão"
+    },
+    {
+        "question": "Qual queijo possui uma casca branca e macia?",
+        "options": ["Brie", "Cheddar", "Provolone", "Minas Padrão"],
+        "correctAnswer": "Brie"
+    },
+    {
+        "question": "Qual queijo brasileiro é famoso por ser servido na churrasqueira?",
+        "options": ["Coalho", "Gouda", "Emmental", "Camembert"],
+        "correctAnswer": "Coalho"
+    },
+    {
+        "question": "Qual queijo tem origem na Itália e é usado em pizzas?",
+        "options": ["Mozzarella", "Cheddar", "Gruyère", "Edam"],
+        "correctAnswer": "Mozzarella"
+    },
+    {
+        "question": "Qual destes queijos possui sabor mais suave?",
+        "options": ["Ricota", "Gorgonzola", "Roquefort", "Provolone Defumado"],
+        "correctAnswer": "Ricota"
+    },
+    {
+        "question": "Qual queijo suíço é conhecido pelos grandes buracos?",
+        "options": ["Emmental", "Brie", "Prato", "Minas Frescal"],
+        "correctAnswer": "Emmental"
+    },
+    {
+        "question": "Qual queijo é frequentemente utilizado no preparo de fondue?",
+        "options": ["Gruyère", "Ricota", "Minas Frescal", "Queijo Prato"],
+        "correctAnswer": "Gruyère"
+    },
+    {
+        "question": "Qual destes queijos é fresco e muito popular no Brasil?",
+        "options": ["Minas Frescal", "Parmesão", "Gouda", "Roquefort"],
+        "correctAnswer": "Minas Frescal"
+    },
+    {
+        "question": "Qual queijo é conhecido por derreter facilmente em sanduíches?",
+        "options": ["Queijo Prato", "Parmesão", "Ricota", "Brie"],
+        "correctAnswer": "Queijo Prato"
+    },
+    {
+        "question": "Qual queijo é tradicionalmente produzido com leite de búfala?",
+        "options": ["Mozzarella de Búfala", "Cheddar", "Minas Padrão", "Edam"],
+        "correctAnswer": "Mozzarella de Búfala"
+    },
+    {
+        "question": "Qual destes queijos possui sabor mais intenso?",
+        "options": ["Gorgonzola", "Ricota", "Minas Frescal", "Cream Cheese"],
+        "correctAnswer": "Gorgonzola"
+    },
+    {
+        "question": "Qual queijo é muito utilizado em cheesecakes?",
+        "options": ["Cream Cheese", "Parmesão", "Coalho", "Gruyère"],
+        "correctAnswer": "Cream Cheese"
+    },
+    {
+        "question": "Qual queijo é típico do estado de Minas Gerais?",
+        "options": ["Queijo Minas", "Camembert", "Edam", "Manchego"],
+        "correctAnswer": "Queijo Minas"
+    },
+    {
+        "question": "Qual destes queijos é tradicional da França?",
+        "options": ["Camembert", "Coalho", "Prato", "Minas Frescal"],
+        "correctAnswer": "Camembert"
+    },
+    {
+        "question": "Qual queijo espanhol é feito tradicionalmente com leite de ovelha?",
+        "options": ["Manchego", "Gouda", "Cheddar", "Brie"],
+        "correctAnswer": "Manchego"
+    },
+    {
+        "question": "Qual destes queijos é normalmente defumado?",
+        "options": ["Provolone", "Ricota", "Minas Frescal", "Cream Cheese"],
+        "correctAnswer": "Provolone"
+    },
+    {
+        "question": "Qual queijo é frequentemente servido com goiabada?",
+        "options": ["Queijo Minas", "Gorgonzola", "Brie", "Gruyère"],
+        "correctAnswer": "Queijo Minas"
+    },
+    {
+        "question": "Qual destes queijos é originário da Holanda?",
+        "options": ["Gouda", "Parmesão", "Roquefort", "Provolone"],
+        "correctAnswer": "Gouda"
+    },
+    {
+        "question": "Qual queijo italiano é utilizado na sobremesa tiramisù em algumas variações?",
+        "options": ["Mascarpone", "Cheddar", "Prato", "Coalho"],
+        "correctAnswer": "Mascarpone"
+    },
+    {
+        "question": "Qual queijo é conhecido por sua textura cremosa e casca aveludada?",
+        "options": ["Brie", "Parmesão", "Prato", "Coalho"],
+        "correctAnswer": "Brie"
+    },
+    {
+        "question": "Qual destes queijos costuma ser vendido em formato de bola?",
+        "options": ["Edam", "Ricota", "Parmesão", "Queijo Prato"],
+        "correctAnswer": "Edam"
+    },
+    {
+        "question": "Qual queijo é amplamente utilizado para fazer pão de queijo?",
+        "options": ["Queijo Minas", "Gorgonzola", "Camembert", "Brie"],
+        "correctAnswer": "Queijo Minas"
+    },
+    {
+        "question": "Qual destes queijos é maturado por mais tempo, adquirindo textura mais dura?",
+        "options": ["Parmesão", "Ricota", "Cream Cheese", "Minas Frescal"],
+        "correctAnswer": "Parmesão"
+    }
+]
