@@ -35,12 +35,12 @@ export default function CheeseOfTruthModal ({
       const randomIndex = Math.floor(Math.random() * localFacts.length)
       setTruth(localFacts[randomIndex])
       setIsLoading(false)
-    }, 600) // Delay de 600ms para revelar a frase
+    }, 700) // Delay de 600ms para revelar a frase
 
     // Libera o botão após 1.8 segundos
     setTimeout(() => {
       setIsCooldown(false)
-    }, 1800)
+    }, 1300)
   }
 
   // Reseta o estado quando o modal fecha
@@ -60,7 +60,7 @@ export default function CheeseOfTruthModal ({
     >
       <View style={styles.overlay}>
         <View style={styles.card}>
-          <Text style={styles.title}>🧀 O Queijo da Verdade</Text>
+          <Text style={styles.title}>O Queijo da Verdade</Text>
           <Text style={styles.subtitle}>
             Toque no queijo para revelar sua profecia
           </Text>

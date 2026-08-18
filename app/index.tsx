@@ -1,7 +1,21 @@
+import React, { useState } from 'react'
+import HomeScreen from '../components/HomeScreen'
 import QuizScreen from '../components/QuizScreen'
 
-const HomePage = () => {
-  return <QuizScreen />
-}
+export default function Index () {
+  const [isPlaying, setIsPlaying] = useState(false)
+  const [achievementsVisible, setAchievementsVisible] = useState(false)
 
-export default HomePage
+  if (isPlaying) {
+    return <QuizScreen />
+  }
+
+  return (
+    <>
+      <HomeScreen
+        onStartQuiz={() => setIsPlaying(true)}
+        onOpenAchievements={() => setAchievementsVisible(true)}
+      />
+    </>
+  )
+}

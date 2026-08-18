@@ -10,8 +10,10 @@ import {
 
 import questionsData from '../(data)/questions.json'
 import CheeseOfTruthModal from './CheeseOfTruthModal'
+import ResultScreen from './ResultScreen'
+import { useSound } from '../hooks/useSound'
 
-// Função para embaralhar um array (Fisher-Yates)
+// Algoritmo Fisher-Yates para embaralhar o array
 const shuffleArray = <T,>(array: T[]): T[] => {
   const shuffled = [...array]
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -21,7 +23,7 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return shuffled
 }
 
-// Função para selecionar 7 questões aleatórias
+// Seleciona 7 questões aleatórias
 const selectRandomQuestions = (
   questions: typeof questionsData,
   limit: number = 7
@@ -30,7 +32,7 @@ const selectRandomQuestions = (
   return shuffled.slice(0, Math.min(limit, shuffled.length))
 }
 
-// Função para embaralhar as opções de uma questão
+// Embaralha as alternativas de cada questão
 const shuffleQuestionOptions = (question: typeof questionsData[0]) => {
   return {
     ...question,
@@ -47,14 +49,19 @@ export default function QuizScreen() {
   const [isFinished, setIsFinished] = useState(false)
   const [modalVisible, setModalVisible] = useState(false)
 
-  // Inicializa o quiz com 7 questões aleatórias
+  const { playSound } = useSound()
+
   useEffect(() => {
+    initQuiz()
+  }, [])
+
+  const initQuiz = () => {
     const selectedQuestions = selectRandomQuestions(questionsData, 7)
     const questionsWithShuffledOptions = selectedQuestions.map(
       shuffleQuestionOptions
     )
     setQuizQuestions(questionsWithShuffledOptions)
-  }, [])
+  }
 
   const currentQuestion = quizQuestions[currentIndex]
   const totalQuestions = quizQuestions.length
@@ -67,10 +74,14 @@ export default function QuizScreen() {
 
     if (option === currentQuestion.correctAnswer) {
       setScore(prev => prev + 1)
+      playSound('bite') // 🧀 Som de mordida crocante!
+    } else {
+      playSound('wrong') // ❌ Som de erro
     }
   }
 
   const handleNextQuestion = () => {
+    playSound('pop')
     if (currentIndex + 1 < totalQuestions) {
       setCurrentIndex(prev => prev + 1)
       setSelectedOption(null)
@@ -81,16 +92,18 @@ export default function QuizScreen() {
   }
 
   const handleRestart = () => {
-    const selectedQuestions = selectRandomQuestions(questionsData, 7)
-    const questionsWithShuffledOptions = selectedQuestions.map(
-      shuffleQuestionOptions
-    )
-    setQuizQuestions(questionsWithShuffledOptions)
+    playSound('pop')
+    initQuiz()
     setCurrentIndex(0)
     setSelectedOption(null)
     setIsAnswered(false)
     setScore(0)
     setIsFinished(false)
+  }
+
+  const handleOpenModal = () => {
+    playSound('pop')
+    setModalVisible(true)
   }
 
   const getOptionStyle = (option: string) => {
@@ -121,53 +134,22 @@ export default function QuizScreen() {
     }
   }
 
+  // Se o quiz tiver terminado, abre o componente de resultados
   if (isFinished) {
-    const percentage = Math.round((score / totalQuestions) * 100)
-
     return (
-      <SafeAreaView style={styles.safeArea}>
-        <StatusBar barStyle='dark-content' backgroundColor='#FFF8E7' />
-        <View style={[styles.container, styles.resultContainer]}>
-          <Text style={styles.resultTitle}>Fim do QuEEZE! 🧀</Text>
-
-          <View style={styles.resultCard}>
-            <Text style={styles.resultEmoji}>
-              {percentage >= 70 ? '👑' : percentage >= 50 ? '🧀' : '🥛'}
-            </Text>
-            <Text style={styles.resultBadge}>
-              {percentage >= 70
-                ? 'Mestre Queijueiro!'
-                : percentage >= 50
-                ? 'Apreciador de Gouda'
-                : 'Leite Coalhado'}
-            </Text>
-            <Text style={styles.resultScoreText}>
-              Você acertou{' '}
-              <Text style={styles.resultScoreHighlight}>{score}</Text> de{' '}
-              {totalQuestions} perguntas!
-            </Text>
-            <Text style={styles.resultPercentage}>
-              {percentage}% de aproveitamento
-            </Text>
-          </View>
-
-          <TouchableOpacity
-            style={styles.actionButton}
-            onPress={handleRestart}
-            activeOpacity={0.8}
-          >
-            <Text style={styles.actionButtonText}>Jogar Novamente</Text>
-          </TouchableOpacity>
-        </View>
-      </SafeAreaView>
+      <ResultScreen
+        score={score}
+        totalQuestions={totalQuestions}
+        onPlayAgain={handleRestart}
+      />
     )
   }
 
-  // Se ainda não carregou as questões, exibe tela em branco
+  // Se as questões ainda não carregaram
   if (!currentQuestion) {
     return (
       <SafeAreaView style={styles.safeArea}>
-        <StatusBar barStyle='dark-content' backgroundColor='#FFF8E7' />
+        <StatusBar barStyle="dark-content" backgroundColor="#FFF8E7" />
         <View style={styles.container} />
       </SafeAreaView>
     )
@@ -175,7 +157,7 @@ export default function QuizScreen() {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar barStyle='dark-content' backgroundColor='#FFF8E7' />
+      <StatusBar barStyle="dark-content" backgroundColor="#FFF8E7" />
       <View style={styles.container}>
         {/* HEADER */}
         <View style={styles.header}>
@@ -189,7 +171,7 @@ export default function QuizScreen() {
           <View style={styles.headerRight}>
             <TouchableOpacity
               style={styles.truthButton}
-              onPress={() => setModalVisible(true)}
+              onPress={handleOpenModal}
               activeOpacity={0.7}
             >
               <Text style={styles.truthButtonText}>🔮 Verdade</Text>
@@ -421,50 +403,5 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold'
-  },
-  resultContainer: {
-    justifyContent: 'center',
-    alignItems: 'stretch',
-    gap: 24
-  },
-  resultTitle: {
-    fontSize: 28,
-    fontWeight: '900',
-    color: '#4A2E10',
-    textAlign: 'center'
-  },
-  resultCard: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 24,
-    padding: 32,
-    alignItems: 'center',
-    borderWidth: 2,
-    borderColor: '#FFE082',
-    elevation: 4
-  },
-  resultEmoji: {
-    fontSize: 64,
-    marginBottom: 12
-  },
-  resultBadge: {
-    fontSize: 20,
-    fontWeight: '800',
-    color: '#E67E22',
-    marginBottom: 16
-  },
-  resultScoreText: {
-    fontSize: 16,
-    color: '#4A2E10',
-    textAlign: 'center',
-    marginBottom: 8
-  },
-  resultScoreHighlight: {
-    fontWeight: 'bold',
-    color: '#E67E22'
-  },
-  resultPercentage: {
-    fontSize: 14,
-    color: '#8C6D46',
-    fontWeight: '600'
   }
 })

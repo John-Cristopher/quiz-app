@@ -123,5 +123,420 @@
         "question": "Qual destes queijos é maturado por mais tempo, adquirindo textura mais dura?",
         "options": ["Parmesão", "Ricota", "Cream Cheese", "Minas Frescal"],
         "correctAnswer": "Parmesão"
+    },
+    {
+        "question": "Qual queijo francês é tradicionalmente produzido na região da Normandia?",
+        "options": ["Camembert", "Gouda", "Manchego", "Gorgonzola"],
+        "correctAnswer": "Camembert"
+    },
+    {
+        "question": "Qual é o principal ingrediente utilizado na fabricação da maioria dos queijos?",
+        "options": ["Leite", "Farinha", "Óleo vegetal", "Arroz"],
+        "correctAnswer": "Leite"
+    },
+    {
+        "question": "Qual substância é tradicionalmente utilizada para coagular o leite na produção de muitos queijos?",
+        "options": [
+            "Coalheira",
+            "Fermento de pão",
+            "Vinagre balsâmico",
+            "Açúcar"
+        ],
+        "correctAnswer": "Coalheira"
+    },
+    {
+        "question": "Qual queijo italiano é famoso por sua longa maturação e textura granulada?",
+        "options": [
+            "Parmigiano-Reggiano",
+            "Mascarpone",
+            "Mozzarella",
+            "Ricota"
+        ],
+        "correctAnswer": "Parmigiano-Reggiano"
+    },
+    {
+        "question": "Qual queijo português é tradicionalmente produzido com leite de ovelha?",
+        "options": ["Queijo da Serra da Estrela", "Gouda", "Cheddar", "Brie"],
+        "correctAnswer": "Queijo da Serra da Estrela"
+    },
+    {
+        "question": "Qual queijo é conhecido por possuir uma textura cheia de pequenos cristais durante a maturação?",
+        "options": [
+            "Parmigiano-Reggiano",
+            "Cream Cheese",
+            "Minas Frescal",
+            "Ricota"
+        ],
+        "correctAnswer": "Parmigiano-Reggiano"
+    },
+    {
+        "question": "Qual queijo suíço é tradicionalmente utilizado na preparação de fondue junto com o Gruyère?",
+        "options": ["Emmental", "Brie", "Gouda", "Edam"],
+        "correctAnswer": "Emmental"
+    },
+    {
+        "question": "Qual queijo italiano é tradicionalmente produzido em formato de uma grande roda e possui Denominação de Origem Protegida?",
+        "options": ["Parmigiano-Reggiano", "Cream Cheese", "Cheddar", "Coalho"],
+        "correctAnswer": "Parmigiano-Reggiano"
+    },
+    {
+        "question": "Qual queijo espanhol possui uma casca característica marcada pelo formato de uma prensa tradicional?",
+        "options": ["Manchego", "Brie", "Gorgonzola", "Gouda"],
+        "correctAnswer": "Manchego"
+    },
+    {
+        "question": "Qual queijo francês é conhecido pelas veias de mofo azul-esverdeado e origem na região de Aveyron?",
+        "options": ["Roquefort", "Brie", "Camembert", "Comté"],
+        "correctAnswer": "Roquefort"
+    },
+    {
+        "question": "Qual tipo de queijo normalmente passa por um processo de maturação?",
+        "options": [
+            "Queijo curado",
+            "Cream Cheese",
+            "Queijo fresco",
+            "Ricota fresca"
+        ],
+        "correctAnswer": "Queijo curado"
+    },
+    {
+        "question": "O que acontece com muitos queijos durante a maturação?",
+        "options": [
+            "O sabor se desenvolve e a textura pode mudar",
+            "Eles se transformam em manteiga",
+            "Perdem completamente a água",
+            "Viraram leite novamente"
+        ],
+        "correctAnswer": "O sabor se desenvolve e a textura pode mudar"
+    },
+    {
+        "question": "Qual queijo brasileiro é tradicionalmente produzido na região do Serro, em Minas Gerais?",
+        "options": [
+            "Queijo Minas Artesanal do Serro",
+            "Gouda",
+            "Roquefort",
+            "Manchego"
+        ],
+        "correctAnswer": "Queijo Minas Artesanal do Serro"
+    },
+    {
+        "question": "Qual queijo é tradicionalmente utilizado na receita italiana de lasanha?",
+        "options": [
+            "Ricota ou mozzarella",
+            "Roquefort",
+            "Edam",
+            "Queijo azul dinamarquês"
+        ],
+        "correctAnswer": "Ricota ou mozzarella"
+    },
+    {
+        "question": "Qual queijo francês é conhecido por sua casca branca coberta por mofo e interior cremoso?",
+        "options": ["Brie", "Comté", "Roquefort", "Gruyère"],
+        "correctAnswer": "Brie"
+    },
+    {
+        "question": "Qual queijo italiano é produzido tradicionalmente com leite de vaca e possui textura firme e sabor marcante?",
+        "options": ["Grana Padano", "Mascarpone", "Mozzarella", "Ricota"],
+        "correctAnswer": "Grana Padano"
+    },
+    {
+        "question": "Qual destes queijos é produzido tradicionalmente na Inglaterra?",
+        "options": ["Cheddar", "Gorgonzola", "Gouda", "Manchego"],
+        "correctAnswer": "Cheddar"
+    },
+    {
+        "question": "Qual queijo holandês costuma possuir uma casca colorida e formato arredondado?",
+        "options": ["Edam", "Roquefort", "Brie", "Parmesão"],
+        "correctAnswer": "Edam"
+    },
+    {
+        "question": "Qual queijo possui origem na região de Gruyères, na Suíça?",
+        "options": ["Gruyère", "Gouda", "Manchego", "Cheddar"],
+        "correctAnswer": "Gruyère"
+    },
+    {
+        "question": "Qual queijo é tradicionalmente utilizado na preparação de uma verdadeira pizza Margherita?",
+        "options": ["Mozzarella", "Cheddar", "Gorgonzola", "Parmesão"],
+        "correctAnswer": "Mozzarella"
+    },
+    {
+        "question": "Qual processo ajuda a conservar e desenvolver o sabor de determinados queijos?",
+        "options": [
+            "Maturação",
+            "Congelamento imediato",
+            "Fervura prolongada",
+            "Secagem ao sol"
+        ],
+        "correctAnswer": "Maturação"
+    },
+    {
+        "question": "Qual queijo azul francês é tradicionalmente maturado em cavernas naturais?",
+        "options": ["Roquefort", "Brie", "Camembert", "Comté"],
+        "correctAnswer": "Roquefort"
+    },
+    {
+        "question": "Qual queijo italiano é utilizado tradicionalmente no molho de queijo da receita clássica de pasta alla gricia?",
+        "options": [
+            "Pecorino Romano",
+            "Mozzarella",
+            "Mascarpone",
+            "Gorgonzola"
+        ],
+        "correctAnswer": "Pecorino Romano"
+    },
+    {
+        "question": "O Pecorino Romano é tradicionalmente produzido com leite de qual animal?",
+        "options": ["Ovelha", "Vaca", "Cabra", "Búfala"],
+        "correctAnswer": "Ovelha"
+    },
+    {
+        "question": "Qual queijo francês é considerado um dos exemplos clássicos de queijo azul?",
+        "options": ["Roquefort", "Brie", "Camembert", "Reblochon"],
+        "correctAnswer": "Roquefort"
+    },
+    {
+        "question": "Qual queijo é conhecido por ser produzido a partir do soro do leite, em vez de ser diretamente obtido da coalhada tradicional?",
+        "options": ["Ricota", "Cheddar", "Gouda", "Gruyère"],
+        "correctAnswer": "Ricota"
+    },
+    {
+        "question": "Qual queijo italiano possui o nome relacionado à palavra italiana para 'ovelha'?",
+        "options": ["Pecorino", "Mascarpone", "Gorgonzola", "Provolone"],
+        "correctAnswer": "Pecorino"
+    },
+    {
+        "question": "Qual queijo brasileiro é tradicionalmente produzido com leite de vaca e pode apresentar pequenos olhos na massa?",
+        "options": [
+            "Queijo Minas Padrão",
+            "Cream Cheese",
+            "Roquefort",
+            "Mascarpone"
+        ],
+        "correctAnswer": "Queijo Minas Padrão"
+    },
+    {
+        "question": "Qual queijo é conhecido por apresentar uma casca lavada, que pode desenvolver aromas bastante intensos?",
+        "options": ["Morbier", "Ricota", "Cream Cheese", "Minas Frescal"],
+        "correctAnswer": "Morbier"
+    },
+    {
+        "question": "Qual queijo francês possui uma linha escura de carvão vegetal atravessando o centro?",
+        "options": ["Morbier", "Brie", "Roquefort", "Camembert"],
+        "correctAnswer": "Morbier"
+    },
+    {
+        "question": "Qual bactéria está associada à formação dos grandes 'olhos' encontrados em alguns queijos suíços?",
+        "options": [
+            "Propionibacterium freudenreichii",
+            "Penicillium roqueforti",
+            "Lactobacillus acidophilus",
+            "Saccharomyces cerevisiae"
+        ],
+        "correctAnswer": "Propionibacterium freudenreichii"
+    },
+    {
+        "question": "O que é o soro do leite durante a fabricação do queijo?",
+        "options": [
+            "O líquido separado da coalhada",
+            "A gordura concentrada do leite",
+            "O mofo utilizado na maturação",
+            "A camada externa do queijo"
+        ],
+        "correctAnswer": "O líquido separado da coalhada"
+    },
+    {
+        "question": "Qual queijo tradicional da Sardenha é conhecido por uma preparação que envolve larvas de insetos?",
+        "options": ["Casu marzu", "Pecorino Romano", "Taleggio", "Fontina"],
+        "correctAnswer": "Casu marzu"
+    },
+    {
+        "question": "Qual destes queijos é tradicionalmente produzido com leite de ovelha?",
+        "options": ["Pecorino Romano", "Gouda", "Emmental", "Brie"],
+        "correctAnswer": "Pecorino Romano"
+    },
+    {
+        "question": "Qual fungo é tradicionalmente utilizado para desenvolver as veias azuladas de alguns queijos?",
+        "options": [
+            "Penicillium roqueforti",
+            "Saccharomyces cerevisiae",
+            "Aspergillus niger",
+            "Rhizopus stolonifer"
+        ],
+        "correctAnswer": "Penicillium roqueforti"
+    },
+    {
+        "question": "O que acontece principalmente durante a maturação de um queijo?",
+        "options": [
+            "Sabores e aromas se desenvolvem e a textura pode mudar",
+            "O queijo volta a se transformar em leite",
+            "Todo o sal desaparece",
+            "O queijo perde completamente sua gordura"
+        ],
+        "correctAnswer": "Sabores e aromas se desenvolvem e a textura pode mudar"
+    },
+    {
+        "question": "Qual é uma das principais funções do sal na produção de queijo?",
+        "options": [
+            "Ajudar na conservação e influenciar sabor e textura",
+            "Transformar o leite diretamente em coalhada",
+            "Produzir os buracos do queijo",
+            "Impedir qualquer atividade microbiana"
+        ],
+        "correctAnswer": "Ajudar na conservação e influenciar sabor e textura"
+    },
+    {
+        "question": "Qual queijo azul francês é tradicionalmente maturado em cavernas naturais?",
+        "options": ["Roquefort", "Brie", "Camembert", "Comté"],
+        "correctAnswer": "Roquefort"
+    },
+    {
+        "question": "Qual queijo possui tradicionalmente uma faixa de carvão vegetal atravessando seu interior?",
+        "options": ["Morbier", "Roquefort", "Brie", "Gruyère"],
+        "correctAnswer": "Morbier"
+    },
+    {
+        "question": "Qual é a principal diferença entre um queijo fresco e um queijo curado?",
+        "options": [
+            "O queijo curado passa por um período de maturação",
+            "O queijo fresco não contém leite",
+            "O queijo curado sempre possui mofo azul",
+            "O queijo fresco precisa ser defumado"
+        ],
+        "correctAnswer": "O queijo curado passa por um período de maturação"
+    },
+    {
+        "question": "O que são os 'olhos' encontrados em alguns queijos suíços?",
+        "options": [
+            "Cavidades formadas por gases durante a maturação",
+            "Pequenos pedaços de gordura",
+            "Colônias de mofo azul",
+            "Cristais de sal"
+        ],
+        "correctAnswer": "Cavidades formadas por gases durante a maturação"
+    },
+    {
+        "question": "Qual queijo italiano é tradicionalmente produzido com leite de ovelha e muito utilizado na culinária romana?",
+        "options": [
+            "Pecorino Romano",
+            "Mozzarella",
+            "Grana Padano",
+            "Mascarpone"
+        ],
+        "correctAnswer": "Pecorino Romano"
+    },
+    {
+        "question": "Qual processo pode envolver a lavagem da superfície do queijo com água salgada ou outras soluções durante a maturação?",
+        "options": [
+            "Lavagem da casca",
+            "Pasteurização",
+            "Homogeneização",
+            "Fermentação alcoólica"
+        ],
+        "correctAnswer": "Lavagem da casca"
+    },
+    {
+        "question": "Qual destes queijos é conhecido por possuir uma casca lavada e aroma bastante intenso?",
+        "options": ["Taleggio", "Ricota", "Cream Cheese", "Minas Frescal"],
+        "correctAnswer": "Taleggio"
+    },
+    {
+        "question": "Qual ingrediente tradicional pode ser utilizado para coagular o leite na fabricação de muitos queijos?",
+        "options": ["Coalheira", "Açúcar", "Fermento de pão", "Óleo vegetal"],
+        "correctAnswer": "Coalheira"
+    },
+    {
+        "question": "A coalhada utilizada na fabricação de queijo é formada principalmente pela coagulação de quais componentes do leite?",
+        "options": ["Proteínas", "Vitaminas", "Açúcares", "Minerais"],
+        "correctAnswer": "Proteínas"
+    },
+    {
+        "question": "Qual queijo português é tradicionalmente produzido com leite de ovelha na região da Serra da Estrela?",
+        "options": [
+            "Queijo da Serra da Estrela",
+            "Queijo de Azeitão",
+            "Gouda",
+            "Manchego"
+        ],
+        "correctAnswer": "Queijo da Serra da Estrela"
+    },
+    {
+        "question": "Qual queijo espanhol é tradicionalmente produzido com leite de ovelha da raça Manchega?",
+        "options": ["Manchego", "Cabrales", "Idiazabal", "Mahón"],
+        "correctAnswer": "Manchego"
+    },
+    {
+        "question": "Qual destes queijos é tradicionalmente produzido com leite de cabra?",
+        "options": ["Chèvre", "Parmigiano-Reggiano", "Emmental", "Gouda"],
+        "correctAnswer": "Chèvre"
+    },
+    {
+        "question": "Por que alguns queijos desenvolvem pequenos cristais durante a maturação?",
+        "options": [
+            "Pela formação e concentração de determinados compostos durante a maturação",
+            "Porque recebem açúcar",
+            "Porque são congelados",
+            "Porque possuem pedaços de sal grosso no interior"
+        ],
+        "correctAnswer": "Pela formação e concentração de determinados compostos durante a maturação"
+    },
+    {
+        "question": "Qual queijo italiano é conhecido por sua textura granulada e longa maturação?",
+        "options": [
+            "Parmigiano-Reggiano",
+            "Mozzarella",
+            "Mascarpone",
+            "Ricota"
+        ],
+        "correctAnswer": "Parmigiano-Reggiano"
+    },
+    {
+        "question": "Qual queijo é tradicionalmente produzido a partir do soro do leite, em vez de depender principalmente da coalhada?",
+        "options": ["Ricota", "Cheddar", "Gouda", "Gruyère"],
+        "correctAnswer": "Ricota"
+    },
+    {
+        "question": "Qual região francesa é especialmente associada ao queijo Roquefort?",
+        "options": ["Aveyron", "Normandia", "Borgonha", "Provença"],
+        "correctAnswer": "Aveyron"
+    },
+    {
+        "question": "Qual queijo francês é famoso por sua casca florida e interior cremoso?",
+        "options": ["Brie", "Comté", "Roquefort", "Morbier"],
+        "correctAnswer": "Brie"
+    },
+    {
+        "question": "O que caracteriza uma casca florida em um queijo?",
+        "options": [
+            "A presença de fungos benéficos que se desenvolvem na superfície",
+            "Uma camada de açúcar cristalizado",
+            "Uma cobertura de farinha",
+            "Uma camada de gordura endurecida"
+        ],
+        "correctAnswer": "A presença de fungos benéficos que se desenvolvem na superfície"
+    },
+    {
+        "question": "Qual queijo é tradicionalmente associado à região francesa da Normandia?",
+        "options": ["Camembert", "Roquefort", "Comté", "Morbier"],
+        "correctAnswer": "Camembert"
+    },
+    {
+        "question": "Qual destes queijos possui origem na região italiana da Lombardia?",
+        "options": ["Gorgonzola", "Manchego", "Gouda", "Roquefort"],
+        "correctAnswer": "Gorgonzola"
+    },
+    {
+        "question": "Qual é a função das bactérias utilizadas em muitos processos de fabricação de queijo?",
+        "options": [
+            "Transformar lactose e contribuir para sabor, aroma e textura",
+            "Impedir completamente a maturação",
+            "Remover toda a gordura do leite",
+            "Produzir açúcar no queijo"
+        ],
+        "correctAnswer": "Transformar lactose e contribuir para sabor, aroma e textura"
+    },
+    {
+        "question": "Qual queijo francês é conhecido por ter uma casca lavada e um aroma bastante marcante?",
+        "options": ["Époisses", "Brie", "Chèvre", "Comté"],
+        "correctAnswer": "Époisses"
     }
 ]
