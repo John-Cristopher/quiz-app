@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# 🧀 Nome do Projeto: QUEEZE
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
+![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-## Get started
+**Descrição:**
+O **QUEEZE** ("O quiz mais coalhado da rede") é um aplicativo mobile de perguntas e respostas interativo e dinâmico. O app oferece uma experiência divertida com efeitos sonoros personalizados, seleção aleatória de perguntas e um recurso especial chamado _Cheese of Truth_ (Queijo da Verdade).
 
-1. Install dependencies
+---
 
+## 📽️ Demonstração (GIF do Uso)
+
+<div align="center">
+  <!-- Substitua o link abaixo pelo caminho relativo ou URL do seu GIF -->
+  <img src="./assets/demo.gif" alt="Demonstração do App QuEEZE" width="300" />
+  <p><i>Demonstração do fluxo de perguntas, efeitos sonoros e modal no QuEEZE.</i></p>
+</div>
+
+---
+
+## 📋 Índice
+
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Executar o Projeto](#-como-executar-o-projeto)
+- [Autores](#-autores)
+- [Licença](#-licença)
+
+---
+
+## ✨ Funcionalidades
+
+- **Perguntas Aleatórias:** Seleção automatizada de 7 perguntas por partida via algoritmo _Fisher-Yates_.
+- **Opções Embaralhadas:** A cada nova rodada, a ordem das respostas é totalmente dinamizada.
+- **Feedback Sonoro:**
+  - 🧀 Som de mordida crocante ao acertar uma resposta.
+  - ❌ Som de erro ao selecionar a opção incorreta.
+  - 🔊 Som de pop nas navegações e interações.
+- **Modal "Verdade" (Cheese of Truth):** Recurso interativo para auxílio/curiosidades durante o quiz.
+- **Tela de Resultados:** Apresentação do desempenho final com opção de reiniciar o quiz.
+- **Interface Responsiva & Temática:** Design estilizado em tons de queijo com status visual instantâneo para respostas certas ou erradas.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem / Frameworks:**
+  - [React Native](https://reactnative.dev/)
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [Expo](https://expo.dev/)
+- **Componentes & Hooks Internos:**
+  - `useSound` (Hook customizado para execução de efeitos sonoros)
+  - `CheeseOfTruthModal` & `ResultScreen`
+  - `SafeAreaView`, `StatusBar`, `TouchableOpacity`, `StyleSheet`
+
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
    ```bash
-   npm install
+   git clone [https://github.com/seu-usuario/queeze.git](https://github.com/seu-usuario/queeze.git)
+   cd queeze
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+   Instale as dependências:
 
 ```bash
-npm run reset-project
+npm install
+# ou
+yarn install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Inicie o servidor de desenvolvimento do Expo:
 
-## Learn more
+Bash
+npx expo start
+Execute no dispositivo/emulador:
 
-To learn more about developing your project with Expo, look at the following resources:
+Use a câmera do celular para ler o QR Code no app Expo Go (Android/iOS).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 👤 Autores
 
-## Join the community
+John Cristopher
 
-Join our community of developers creating universal apps.
+## 📄 Licença
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
