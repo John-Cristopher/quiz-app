@@ -14,7 +14,7 @@ O **QUEEZE** ("O quiz mais coalhado da rede") é um aplicativo mobile de pergunt
 
 <div align="center">
   <!-- Substitua o link abaixo pelo caminho relativo ou URL do seu GIF -->
-  <img src="./assets/demo.gif" alt="Demonstração do App QuEEZE" width="300" />
+  <img src="./assets/images/Xiaomi-12-localhost-qvzurzn_dm0fli.gif" alt="Demonstração do App QuEEZE" width="250" />
   <p><i>Demonstração do fluxo de perguntas, efeitos sonoros e modal no QuEEZE.</i></p>
 </div>
 
