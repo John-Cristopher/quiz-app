@@ -63,18 +63,6 @@ export default function HomeScreen ({
           >
             <Text style={styles.primaryButtonText}>▶ Começar Quiz</Text>
           </TouchableOpacity>
-
-          {onOpenAchievements && (
-            <TouchableOpacity
-              style={styles.secondaryButton}
-              onPress={handleAchievements}
-              activeOpacity={0.8}
-            >
-              <Text style={styles.secondaryButtonText}>
-                🏆 Galeria de Queijos
-              </Text>
-            </TouchableOpacity>
-          )}
         </View>
       </View>
     </SafeAreaView>

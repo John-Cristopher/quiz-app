@@ -22,6 +22,8 @@
       "predictiveBackGestureEnabled": false,
       "permissions": [
         "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
         "android.permission.MODIFY_AUDIO_SETTINGS"
       ],
       "package": "com.john_cristopher.quizapp"
@@ -56,6 +58,12 @@
       "eas": {
         "projectId": "dbdb2ded-e5e6-429a-a4b0-ed9b3d41cb8b"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/dbdb2ded-e5e6-429a-a4b0-ed9b3d41cb8b"
     }
   }
 }
